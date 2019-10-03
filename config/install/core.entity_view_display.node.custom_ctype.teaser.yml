@@ -1,17 +1,17 @@
-# core.entity_view_display.node.custom.teaser.yml
+# core.entity_view_display.node.custom_ctype.teaser.yml
 langcode: en
 status: true
 dependencies:
     config:
         - core.entity_view_mode.node.teaser
-        - field.field.node.custom.body
-        - node.type.custom
+        - field.field.node.custom_ctype.body
+        - node.type.custom_ctype
     module:
         - text
         - user
-id: node.custom.teaser
+id: node.custom_ctype.teaser
 targetEntityType: node
-bundle: custom
+bundle: custom_ctype
 mode: teaser
 content:
     body:

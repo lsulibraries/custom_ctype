@@ -1,12 +1,12 @@
-# node.type.custom.yml
+# node.type.custom_ctype.yml
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
-      - custom_cytpe # This is the name of the module we're using for this example
+      - custom_ctype # This is the name of the module we're using for this example
 name: 'Custom'
-type: custom
+type: custom_ctype
 description: 'Content type for testing stuff out.'
 new_revision: false
 preview_mode: 1

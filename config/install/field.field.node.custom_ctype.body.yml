@@ -1,16 +1,16 @@
-# field.field.node.custom.body.yml
+# field.field.node.custom_ctype.body.yml
 langcode: en
 status: true
 dependencies:
     config:
         - field.storage.node.body
-        - node.type.custom
+        - node.type.custom_ctype
     module:
         - text
-id: node.custom.body
+id: node.custom_ctype.body
 field_name: body
 entity_type: node
-bundle: custom
+bundle: custom_ctype
 label: Body
 description: 'Body field.'
 required: false

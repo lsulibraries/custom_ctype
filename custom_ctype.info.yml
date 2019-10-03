@@ -1,0 +1,6 @@
+# this file is needed to make drupal aware of the module
+name: Custom Content Type
+type: module
+description: 'Barebones module for custom content type'
+package: custom
+core: 8.x

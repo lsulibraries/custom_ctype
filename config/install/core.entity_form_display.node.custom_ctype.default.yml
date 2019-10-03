@@ -1,16 +1,16 @@
-# core.entity_form_display.node.custom.default.yml
+# core.entity_form_display.node.custom_ctype.default.yml
 langcode: en
 status: true
 dependencies:
     config:
-        - field.field.node.custom.body
-        - node.type.custom
+        - field.field.node.body
+        - node.type.custom_ctype
     module:
         - text
         - user
-id: node.custom.default
+id: node.custom_ctype.default
 targetEntityType: node
-bundle: custom
+bundle: custom_ctype
 mode: default
 content:
     body:
