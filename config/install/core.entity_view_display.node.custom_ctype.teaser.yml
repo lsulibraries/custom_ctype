@@ -5,6 +5,7 @@ dependencies:
     config:
         - core.entity_view_mode.node.teaser
         - field.field.node.custom_ctype.body
+        - field.field.node.custom_ctype.action_call
         - node.type.custom_ctype
     module:
         - text
