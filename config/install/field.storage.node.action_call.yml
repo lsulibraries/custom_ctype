@@ -4,11 +4,11 @@ status: true
 dependencies:
   module:
     - node
-    - link
+    - text
 id: node.action_call
 field_name: action_call
 entity_type: node
-type: link
+type: text_with_summary
 settings: {  }
 module: link
 locked: false

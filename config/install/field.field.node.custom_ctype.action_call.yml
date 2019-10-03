@@ -6,7 +6,7 @@ dependencies:
         - field.storage.node.action_call
         - node.type.custom_ctype
     module:
-        - link
+        - text
 id: node.custom_ctype.action_call
 field_name: action_call
 entity_type: node

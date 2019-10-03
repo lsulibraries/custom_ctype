@@ -9,6 +9,7 @@ dependencies:
     module:
         - text
         - user
+        - link
 id: node.custom_ctype.default
 targetEntityType: node
 bundle: custom_ctype
