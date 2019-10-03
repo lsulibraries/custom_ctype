@@ -6,7 +6,7 @@ dependencies:
         - field.storage.node.action_call
         - node.type.custom_ctype
     module:
-        - text
+        - link
 id: node.custom_ctype.action_call
 field_name: action_call
 entity_type: node
@@ -19,4 +19,4 @@ default_value: {  }
 default_value_callback: ''
 settings:
     display_summary: true
-field_type: text_with_summary
+field_type: link
