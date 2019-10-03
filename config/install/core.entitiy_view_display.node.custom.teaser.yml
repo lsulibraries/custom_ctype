@@ -1,0 +1,26 @@
+# core.entity_view_display.node.custom.teaser.yml
+langcode: en
+status: true
+dependencies:
+    config:
+        - core.entity_view_mode.node.teaser
+        - field.field.node.custom.body
+        - node.type.custom
+    module:
+        - text
+        - user
+id: node.custom.teaser
+targetEntityType: node
+bundle: custom
+mode: teaser
+content:
+    body:
+        label: hidden
+        type: text_summary_or_trimmed
+        weight: 101
+        settings:
+            trim_length: 600
+        third_party_settings: {  }
+    links:
+        weight: 100
+hidden: {  }

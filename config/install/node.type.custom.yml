@@ -1,0 +1,13 @@
+# node.type.custom.yml
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - custom_cytpe # This is the name of the module we're using for this example
+name: 'Custom'
+type: custom
+description: 'Content type for testing stuff out.'
+new_revision: false
+preview_mode: 1
+display_submitted: true

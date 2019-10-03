@@ -1,0 +1,22 @@
+# field.field.node.custom.body.yml
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.body
+        - node.type.custom
+    module:
+        - text
+id: node.custom.body
+field_name: body
+entity_type: node
+bundle: custom
+label: Body
+description: 'Body field.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+    display_summary: true
+field_type: text_with_summary
