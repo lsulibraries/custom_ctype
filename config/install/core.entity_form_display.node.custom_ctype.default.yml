@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
     config:
-        - field.field.node.body
+        - field.field.node.custom_ctype.body
         - node.type.custom_ctype
     module:
         - text

@@ -5,9 +5,10 @@ dependencies:
   enforced:
     module:
       - custom_ctype # This is the name of the module we're using for this example
-name: 'Custom'
+name: 'Custom Content Type'
 type: custom_ctype
 description: 'Content type for testing stuff out.'
+help: ''
 new_revision: false
 preview_mode: 1
 display_submitted: true
