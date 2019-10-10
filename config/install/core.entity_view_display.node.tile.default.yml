@@ -1,0 +1,30 @@
+# core.entity_view_display.node.tile.default.yml
+langcode: en
+status: true
+dependencies:
+    config:
+        - node.type.tile
+    module:
+        - text
+        - user
+        - link
+id: node.tile.default
+targetEntityType: node
+bundle: tile
+mode: default
+content:
+    body:
+        label: hidden
+        type: text_default
+        weight: 101
+        settings: {  }
+        third_party_settings: {  }
+    action_call:
+        label: hidden
+        type: link
+        weight: 102
+        settings: {  }
+        third_party_settings: {  }
+    links:
+        weight: 100
+hidden: {  }
