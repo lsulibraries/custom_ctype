@@ -21,6 +21,12 @@ content:
         weight: 101
         settings: {  }
         third_party_settings: {  }
+    action_call:
+        lable: hidden
+        type: link_default
+        weight: 102
+        settings: {  }
+        third_party_settings: {  }
     links:
         weight: 100
 hidden: {  }

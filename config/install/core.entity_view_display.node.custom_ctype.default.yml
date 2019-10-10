@@ -9,6 +9,7 @@ dependencies:
     module:
         - text
         - user
+        - link
 id: node.custom_ctype.default
 targetEntityType: node
 bundle: custom_ctype
@@ -18,6 +19,12 @@ content:
         label: hidden
         type: text_default
         weight: 101
+        settings: {  }
+        third_party_settings: {  }
+    action_call:
+        label: hidden
+        type: link
+        weight: 102
         settings: {  }
         third_party_settings: {  }
     links:
