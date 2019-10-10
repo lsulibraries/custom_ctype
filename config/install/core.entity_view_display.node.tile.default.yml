@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
     config:
-        - node.type.tile
         - field.field.node.tile.action_call
+        - node.type.tile
     module:
         - text
         - user

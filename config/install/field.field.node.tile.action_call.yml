@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
     config:
-        - field.storage.node.action_call
+        - field.storage.node.tile.action_call
         - node.type.tile
     module:
         - image

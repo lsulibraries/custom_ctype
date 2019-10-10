@@ -3,12 +3,13 @@ langcode: en
 status: true
 dependencies:
     config:
+        - field.field.node.tile.action_call
         - node.type.tile
-        - field.field.node.action_call
     module:
         - text
         - user
         - link
+        - image
 id: node.tile.default
 targetEntityType: node
 bundle: tile
