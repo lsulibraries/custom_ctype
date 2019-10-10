@@ -4,6 +4,7 @@ status: true
 dependencies:
     config:
         - node.type.tile
+        - field.field.node.action_call
     module:
         - text
         - user
@@ -13,12 +14,6 @@ targetEntityType: node
 bundle: tile
 mode: default
 content:
-    body:
-        label: hidden
-        type: text_textarea_with_summary
-        weight: 101
-        settings: {  }
-        third_party_settings: {  }
     action_call:
         lable: hidden
         type: link_default

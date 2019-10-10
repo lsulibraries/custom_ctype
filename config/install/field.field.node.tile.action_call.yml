@@ -1,0 +1,23 @@
+# field.field.node.tile.action_call.yml
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.action_call
+        - node.type.tile
+    module:
+        - image
+        - link
+id: node.tile.action_call
+field_name: action_call
+entity_type: node
+bundle: tile
+label: Call to action for tool or service
+description: 'A call to action for a tile, with image and link.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+    display_summary: true
+field_type: link

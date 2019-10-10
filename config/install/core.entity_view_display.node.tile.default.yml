@@ -4,6 +4,7 @@ status: true
 dependencies:
     config:
         - node.type.tile
+        - field.field.node.tile.action_call
     module:
         - text
         - user
